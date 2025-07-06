@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "transform-tokens": "npx style-dictionary build"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.1.1"
+  }
+}
