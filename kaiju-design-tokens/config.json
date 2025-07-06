@@ -1,0 +1,60 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "android": {
+      "transformGroup": "android",
+      "buildPath": "src/main/res/",
+      "files": [
+        {
+          "destination": "app_font_dimens.xml",
+          "format": "android/fontDimens"
+        },
+        {
+          "destination": "app_colors.xml",
+          "format": "android/colors"
+        },
+        {
+          "destination": "app_dimens.xml",
+          "format": "android/dimens"
+        },
+        {
+          "destination": "app_integers.xml",
+          "format": "android/integers"
+        },
+        {
+          "destination": "app_strings.xml",
+          "format": "android/strings"
+        }
+      ]
+    },
+    "compose": {
+      "transformGroup": "compose",
+      "buildPath": "src/main/java/tools/kaiju/android/design/tokens/",
+      "files": [
+        {
+          "destination": "StyleDictionaryColor.kt",
+          "format": "compose/object",
+          "options": {
+            "className": "StyleDictionaryColor",
+            "packageName": "tools.kaiju.android.design.tokens"
+          },
+          "filter": {
+            "$type": "color"
+          }
+        },
+        {
+          "destination": "StyleDictionarySize.kt",
+          "format": "compose/object",
+          "options": {
+            "className": "StyleDictionarySize",
+            "packageName": "tools.kaiju.android.design.tokens",
+            "type": "float"
+          },
+          "filter": {
+            "$type": "dimension"
+          }
+        }
+      ]
+    }
+  }
+}

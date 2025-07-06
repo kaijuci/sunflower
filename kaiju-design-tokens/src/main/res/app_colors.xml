@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly, this file was auto-generated.
+-->
+<resources>
+  <color name="primitives_color_orange_50">#fffff2e7</color>
+  <color name="primitives_color_orange_100">#fffaba14</color>
+  <color name="primitives_color_orange_200">#ffffa451</color>
+  <color name="primitives_color_orange_300">#fff6851f</color>
+  <color name="primitives_color_orange_400">#fff08626</color>
+  <color name="primitives_color_orange_500">#fff15c3b</color>
+  <color name="primitives_color_white_900">#ffffffff</color>
+  <color name="primitives_color_black_100">#ff000000</color>
+  <color name="primitives_color_black_200">#ff27214d</color>
+  <color name="primitives_color_green_100">#ffe0ffe5</color>
+  <color name="primitives_color_green_200">#ffc9d52b</color>
+  <color name="primitives_color_green_300">#ff4cd964</color>
+  <color name="primitives_color_gray_100">#fff3f1f1</color>
+  <color name="primitives_color_gray_200">#ffc2bdbd</color>
+  <color name="primitives_color_gray_300">#ff86869e</color>
+  <color name="primitives_color_gray_400">#ff938db5</color>
+  <color name="primitives_color_magenta_100">#ffc405f4</color>
+  <color name="semantic_surface_base">#ffffa451</color>
+  <color name="semantic_surface_light">#fffff2e7</color>
+  <color name="semantic_surface_shadow">#fff08626</color>
+  <color name="semantic_surface_neutral">#ffffffff</color>
+  <color name="semantic_brand_primary">#fffaba14</color>
+  <color name="semantic_brand_secondary">#fff6851f</color>
+  <color name="semantic_brand_tertiary">#fff15c3b</color>
+  <color name="semantic_brand_highlight">#ffc9d52b</color>
+</resources>

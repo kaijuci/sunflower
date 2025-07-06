@@ -32,3 +32,5 @@ dependencyResolutionManagement {
 
 include(":app")
 include(":macrobenchmark")
+
+include("kaiju-design-tokens")
